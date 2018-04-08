@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "eslint",
     "lint:all": "eslint src",
-    "start": "webpack-dev-server --config ./webpack.config.js --mode development"
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "test": "mocha"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
