@@ -12,8 +12,12 @@ module.exports = {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: ['babel-loader'],
-      }
-    ]
+      },
+      {
+        test: /\.styl$/,
+        use: ['style-loader', 'css-loader', 'stylus-loader'],
+      },
+    ],
   },
   resolve: {
     extensions: ['*', '.js', '.jsx'],
