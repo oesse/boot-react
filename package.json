@@ -4,6 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "lint": "eslint",
+    "lint:all": "eslint src",
     "start": "webpack-dev-server --config ./webpack.config.js --mode development"
   },
   "devDependencies": {

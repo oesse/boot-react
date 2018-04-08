@@ -1,9 +1,10 @@
 const webpack = require('webpack')
+const path = require('path')
 
 module.exports = {
   entry: [
     'react-hot-loader/patch',
-    './src/index.js',
+    './src/index.jsx',
   ],
   module: {
     rules: [
@@ -18,7 +19,7 @@ module.exports = {
     extensions: ['*', '.js', '.jsx'],
   },
   output: {
-    path: __dirname + '/dist',
+    path: path.join(__dirname, '/dist'),
     publicPath: '/',
     filename: 'bundle.js',
   },
@@ -28,5 +29,5 @@ module.exports = {
   devServer: {
     contentBase: './dist',
     hot: true,
-  }
-};
+  },
+}
