@@ -1,4 +1,4 @@
-# boot-react
+# boot-react [![Build Status](https://travis-ci.org/oesse/boot-react.svg?branch=master)](https://travis-ci.org/oesse/boot-react)
 Skeleton for a React frontend application.
 
 ### features
