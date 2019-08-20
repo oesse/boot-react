@@ -30,7 +30,7 @@
     "react-hot-loader": "^4.0.1",
     "style-loader": "^0.21.0",
     "stylint": "^1.5.9",
-    "stylus": "^0.54.5",
+    "stylus": "^0.54.6",
     "stylus-loader": "^3.0.2",
     "webpack": "^4.5.0",
     "webpack-cli": "^2.0.14",
